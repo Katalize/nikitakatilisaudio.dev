@@ -3,7 +3,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.3"
 
-gem "no-style-please", git: "https://github.com/schtschenok/no-style-please", branch: 'master'
+gem "jekyll-theme-console"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
