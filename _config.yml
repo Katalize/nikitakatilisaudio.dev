@@ -30,7 +30,7 @@ favicon: "logo.png"
 
 permalink: /:slug/
 
-theme: "jekyll-theme-console"
+remote-theme: "jekyll-theme-console"
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
