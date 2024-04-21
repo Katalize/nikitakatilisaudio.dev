@@ -5,6 +5,10 @@ permalink: /
 ---
 
 
-# Welcome
+# Hi there and welcome to my cushty website!
 
-Bla bla bla bla. Bla bla bla bla bla bla bla bla.
+My name is **Nikita Katilis** and I am a **game audio designer** based in *Leeds, UK*. 
+
+At the moment I work full time as a **senior sound designer** at **Saber Interactive**. 
+
+ {% youtube "https://www.youtube.com/watch?v=gGX26qk8DFw" %}
