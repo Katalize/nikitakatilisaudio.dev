@@ -3,10 +3,10 @@ title: /home
 layout: home
 permalink: /
 ---
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <h1>Nikita Katilis | Game Audio Designer | ![Alt text for image](image_url.jpg "Optional title")[](link_url) </h1>
-  <img src="https://github.com/Katalize/nikitakatilisaudio.dev/blob/main/_media/footer.gif?raw=true" alt="gif" style="height: 92px; width:123px;">
-</div>
+
+<h1><mark style="background-color: lightgrey;">Nikita Katilis | Game Audio Designer</mark> </h1>
+
+<hr class="dotted-line">
 
 <hr class="dotted-line">
 

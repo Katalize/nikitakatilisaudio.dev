@@ -67,9 +67,9 @@ header_pages:
 
 style: dark
 
-footer: 'nikitakatilis@gmail.com / 2024 
+footer: 'nikitakatilis@gmail.com / 2024'
 
-# Build settings
+Build settings:
 markdown: kramdown
 
 # Exclude from processing.
