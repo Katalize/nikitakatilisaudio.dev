@@ -83,12 +83,12 @@ markdown: kramdown
 #
  exclude:
   - tmp 
+  - vendor/
 #   - .jekyll-cache/
 #   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules/
-  -  vendor
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
