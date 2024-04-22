@@ -88,7 +88,7 @@ markdown: kramdown
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules/
-#   - vendor/bundle/
+  -  vendor
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
