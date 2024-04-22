@@ -18,7 +18,7 @@ At the moment I work full time as a **senior sound designer** at **Saber Interac
 
 # Showreel
 
-<iframe width="1000" height="563" src="https://www.youtube.com/embed/gGX26qk8DFw?si=rswZPactHYMepUbz" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="563" src="https://www.youtube.com/embed/gGX26qk8DFw?si=rswZPactHYMepUbz" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <hr class="dotted-line">
 
