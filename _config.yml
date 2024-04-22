@@ -68,7 +68,6 @@ header_pages:
 style: dark
 
 footer: 'nikitakatilis@gmail.com / 2024 
-<img src="_media/footer.gif" alt="gif" style="height: 100px; width:100px;"/>'
 
 # Build settings
 markdown: kramdown
