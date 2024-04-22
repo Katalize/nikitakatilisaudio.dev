@@ -16,7 +16,7 @@ I developed the game entirely in Unity. FMOD was used to integrate sound assets 
 
 <iframe width="1000" height="563" src="https://www.youtube.com/embed/orgws-fVfX4?si=dghqg9PRBwYc9My3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-* **[EFF](https://eff.org)** 
+* **[Read more on the development of the game](posts/unityfmodmethod)** 
 * **[Read the full thesis](https://drive.google.com/file/d/1QXvPdk2z_lEcTkXImmOrjOj41hH9j0hL/view)**
 * **[Download game on ITCH.IO](https://katalize.itch.io/causing-suspense-anxiety-and-fear-using-sound-design-in-video-games)** 
 * **[Github repo](https://github.com/Katalize/Causing-Suspense-Anxiety-And-Fear-Using-Sound-Design-In-Video-Games)**
