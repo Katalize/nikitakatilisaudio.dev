@@ -6,7 +6,7 @@ permalink: /cv
 I am a professional full-time game audio designer based in Leeds, United Kingdom. I am currently employed at Saber Interactive and work on the soundscape of an unannounced title.
 
 
-<img src="https://github.com/Katalize/nikitakatilisaudio.dev/blob/main/_media/ascii-art%20(7).jpg?raw=true" alt="Picture Description" width="720">
+<img src="https://github.com/Katalize/nikitakatilisaudio.dev/blob/main/_media/ascii-art%20(7).jpg?raw=true" alt="Picture Description" width="1000">
 
 <hr class="dotted-line">
 
@@ -88,4 +88,4 @@ I am a professional full-time game audio designer based in Leeds, United Kingdom
 
 My favourite games currently are: Dark Souls 1 & 3, Dishonored 1 & 2 and Resident Evil 4 Remake. I am also a big fan of racing simulators and simcades (Assetto Corsa, Gran Turismo 7, Dirt 2). And obviously, I enjoy electronic music production of bass-heavy music, where I can design all the sounds myself. My latest track has been released on Jah Tek under my pseudonym Katalize.
 
-I am also currently diving deep into audio DSP by actively learning PureData and plugin compilation for Wwwise using Heavy
+I am also currently diving deep into audio DSP and actively learning PureData and plugin compilation for Wwwise using Heavy
