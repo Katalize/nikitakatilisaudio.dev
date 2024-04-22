@@ -82,7 +82,7 @@ markdown: kramdown
 # their entries' file path in the `include:` list.
 #
  exclude:
-   - vendor
+   - vendor/bundle
 #   - .jekyll-cache/
 #   - gemfiles/
 #   - Gemfile
