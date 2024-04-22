@@ -17,7 +17,8 @@ Based on the information gathered in the secondary research, the effectiveness o
 
 In order to develop the game for testing, a free personal license of a cross-platform game engine _Unity_ (version 2021.3.8f1) was acquired (_see Figure 3.1)_. While there are many other engines, such as _Unreal Engine 5_ or _Godot_, Unity has an extensive library of user-generated assets, such as 3D models, scripts, particle effects and others. Additionally, due to its’ popularity, there are great amounts of educational resources and pre-developed solutions, which greatly helped in the development process.
 
-**Figure 3.1** Unity project of the game.
+![Figure 3.1](/media/Methodology/2022-10-19_16-56.png)
+*Figure 3.1 Unity project of the game.*
 
 As Unity uses C# as its main scripting and programming language, a lightweight code editor software _Visual Studio Code_ was used for scripting audio and other game-related events.
 
