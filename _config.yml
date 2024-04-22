@@ -30,8 +30,7 @@ favicon: "favicon.ico"
 
 permalink: /:slug/
 
-theme: jekyll-theme-console
-
+remote_theme: Katalize/katalize_jakyll_theme
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
@@ -60,15 +59,19 @@ exclude:
 header_pages:
   - index.md
   - showreel.md
+  - implementation.md
+  - cv.md
+  - music.md
+  - content.md
   - contact.md
 
 style: dark
 
-footer: 'nikitakatilis@gmail.com / 2024  '
+footer: 'nikitakatilis@gmail.com / 2024 
+<img src="_media/footer.gif" alt="gif" style="height: 100px; width:100px;"/>'
 
 # Build settings
 markdown: kramdown
-remote_theme: b2a3e8/jekyll-theme-console
 
 # Exclude from processing.
 # The following items will not be processed, by default.
