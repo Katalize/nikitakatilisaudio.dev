@@ -34,6 +34,6 @@ I love racing games and I love cars, so redesigning a Need for Speed 2015 traile
 <hr class="dotted-line">
 <hr class="dotted-line">
 
-<h2><mark style="background-color: lightgrey;">Showreel</mark> </h2> 
+<h2><mark style="background-color: lightgrey;">Blog Posts</mark> </h2> 
 
 <hr class="dotted-line">
