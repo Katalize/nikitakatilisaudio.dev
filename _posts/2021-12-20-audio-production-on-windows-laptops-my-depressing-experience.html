@@ -1,0 +1,68 @@
+---
+layout: post
+title: Audio Production On Windows Laptops - My Depressing Experience
+date: 2021-12-20 03:51:00.000000000 +00:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Technical
+tags:
+- audio
+- audio production
+- bugs
+- pc
+- sound design
+meta:
+  _last_editor_used_jetpack: block-editor
+  _publicize_job_id: '66526329417'
+  timeline_notification: '1639540309'
+  _thumbnail_id: '266'
+  _wp_old_date: '2021-12-15'
+author:
+  login: nikitakatilis
+  email: nikitakatilis@gmail.com
+  display_name: Nikita Katilis
+  first_name: Nikita
+  last_name: Katilis
+permalink: "/2021/12/20/audio-production-on-windows-laptops-my-depressing-experience/"
+---
+<p><!-- wp:paragraph --></p>
+<p>A lot of people say that that Windows can just do fine as an OS for audio production, and I am, to some extent, can absolutely agree. If you build a well-designed PC tower tuned for running real-time audio you will have absolutely no issues. But as soon as you decide to buy a laptop - it is a whole different story. In this blog post, I will share my experience using a Razer Windows PC for audio production, which turned out to be an absolute nightmare and currently I am thinking of selling it, even though it is a beast of a machine. Let me explain why.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This gaming PC was bought specifically for its’ specifications - an I7 11800H CPU, 16 GBs of RAM and RTX 3060 for a graphics card. Sounds good on paper. I was really excited to finally be able to do a lot of heavy production and sound processing in my DAWs, only to be extremely let down - at 64 samples buffer size with nothing playing, resource monitors in all of my DAWs would constantly show that my CPU is overloaded, even though in reality the CPU was only 10% under load in task manager. I would experience clicks and pops, which seemed to happen inconsistently and all of this would just drive me mad. Obviously, I was extremely frustrated, as this is a spec’d out PC and it should be able to run at least 5 instances of Serum with intense presets loaded without a hitch, but obviously, it was not the case.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":259,"width":664,"height":271,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large is-resized"><img src="{{ site.baseurl }}/assets/2021/12/photo_2021-12-15_03-49-40.jpg?w=464" alt="" class="wp-image-259" width="664" height="271" /><br />
+<figcaption><em>The CPU spiking with no audio running in 0 tracks project in Cubase</em></figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>After a few months of using the laptop, the performance would just stay as bad, so yesterday I had finally decided to find the core issue of why is this happening.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 id="dpc-latency-and-why-you-are-screwed"><strong>DPC Latency and Why You Are Screwed</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>As always, I started googling in order to find a possible solution for this, and after a few minutes of searching, I found this article by <a href="https://www.sweetwater.com/sweetcare/articles/solving-dpc-latency-issues/">Sweetwater</a>, which discussed the impact of DPC spikes and how they affect audio performance. What are DPC spikes you may ask? Basically, this acronym stands for Deferred Procedure Call, and in its’ core, it is a part of Windows which is responsible for drivers efficiency. What are drivers? Well, drivers are a set of instructions for all the connected parts of your PC, which tell the devices how to behave and communicate with each other. So, if one of the drivers takes too long to respond to the calls of other PC parts (I am not an expert on this), this will result in a latency spike, which can and will suspend other drivers, with the target being less important ones. Now, when we understand this, let's talk about what is going on with my audio performance.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 id="testing-the-latency-and-finding-the-culprit"><strong>Testing The Latency And Finding The Culprit</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>To find the faulty drivers, I have installed <a href="https://www.resplendence.com/latencymon" target="_blank" rel="noreferrer noopener">LatencyMon</a>, a free piece of software, which can track and log latency spikes. After running a few tests I have finally found what is causing the issue - the ACPI.sys driver. And this was the worst news for me. Why? Well this is a <em>system driver</em>, which is responsible for power management on all Windows laptops, and here is a catch - you cannot update or disable it, due to the fact that this is an inbox component core to the OS. The driver constantly freaks out and stalls, resulting in click and pops, no matter the buffer size. To be completely honest, it is not the issue on all Windows laptops, but for instance, Dell XPS is notorious for this.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":261,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/2021/12/photo_2021-12-15_03-51-02.jpg?w=1024" alt="" class="wp-image-261" /><br />
+<figcaption><em>LatencyMon logging the spikes and drivers at fault</em></figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading --></p>
+<h2 id="final-thoughts-and-actions"><strong>Final Thoughts And Actions</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Sadly, this is unfixable on the users' end and it is considered a legacy issue. There is nothing you can do about it without risking bricking your device. And honestly, I do not know what to do - working like this is really hard and irritating and building a new PC in 2021 is ridiculously overpriced due to scalpers and crypto miners creating shortages of video cards. The main outtake is this - always test the latency of the Windows laptop before buying it or just simply buy a Macbook.</p>
+<p><!-- /wp:paragraph --></p>
