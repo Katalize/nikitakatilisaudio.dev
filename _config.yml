@@ -58,12 +58,11 @@ exclude:
 
 header_pages:
   - index.md
+  - cv.md
   - showreel.md
   - implementation.md
-  - cv.md
   - music.md
   - content.md
-  - contact.md
 
 style: dark
 

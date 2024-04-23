@@ -6,7 +6,7 @@ permalink: /cv
 I am a professional full-time game audio designer based in Leeds, United Kingdom. I am currently employed at Saber Interactive and work on the soundscape of an unannounced title.
 
 
-<img src="https://github.com/Katalize/nikitakatilisaudio.dev/blob/main/_media/ascii-art%20(7).jpg?raw=true" alt="Picture Description" width="1000">
+<img src="https://github.com/Katalize/nikitakatilisaudio.dev/blob/main/media/ascii-art%20(7).jpg?raw=true" alt="Picture Description" width="100%">
 
 <hr class="dotted-line">
 
@@ -53,7 +53,7 @@ I am a professional full-time game audio designer based in Leeds, United Kingdom
 
 <hr class="dotted-line">
 
-**University of Salford - Manchester, UK**
+# University of Salford - Manchester, UK
 *MSc in Audio Production (2021-2022)*
 
 *   Master of Science with first-class honours (1:1).
@@ -62,7 +62,7 @@ I am a professional full-time game audio designer based in Leeds, United Kingdom
 
 <hr class="dotted-line">
 
-**University of Bolton (Spirit Studios) - Manchester, UK**
+# University of Bolton (Spirit Studios) - Manchester, UK
 *BSc in Sound Engineering & Design (2018-2021)*
 *   Achieved a Bachelor of Science with first-class honours (1:1).
 *   Student representative.
