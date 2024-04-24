@@ -1,2 +1,3 @@
 # nikitakatilisaudio.dev
-Website wooow
+
+Personal website. Currently in construction
