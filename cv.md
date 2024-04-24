@@ -18,8 +18,8 @@ I am a professional full-time game audio designer based in Leeds, United Kingdom
 
 *   **Fast-paced design of audio assets** in multitude of different styles and aesthetic categories.
 *   Implementation of assets using **Wwise and Unreal Engine 5**
-*   **Active collaboration with diffrent studio departments** such as programmers, cutscene artists, game designers and others
-*   **Teaching and mentoring** of new collegues
+*   **Active collaboration with different studio departments** such as programmers, cutscene artists, game designers and others
+*   **Teaching and mentoring** of new colleagues
 *   **Design of vehicle sounds and corresponding in-game logic systems** including engines, transmissions, turbo, tyres and others
 *   Establishing **mixing vision, pipelines, targets and mastering**
 *   Creation of **mixing solutions**, such as custom HDR and reverb systems
