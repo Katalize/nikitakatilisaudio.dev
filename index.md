@@ -37,3 +37,13 @@ I love racing games and I love cars, so redesigning a Need for Speed 2015 traile
 <h2><mark style="background-color: lightgrey;">Blog Posts</mark> </h2> 
 
 <hr class="dotted-line">
+
+<a href="/engine-loop-creation/" class="my-thumbnail">
+  <img src="/media/EngineLoops/thumbnail.png" alt="RPM formula" width="100%">
+</a>
+
+[[2024-04-24] Engine Loop Creation using Pyrespeeder and iZotope RX](_posts/2024-04-24-engineloops.md)
+
+<p style="font-size: 12px;">Design and implementation of a good sounding vehicle is very difficult. The sound of a car consists of a myriad of layers such as the engine itself (engine and exhaust), turbo, tyres, suspension, etc.. All of them need to work well together, react to the player's input and game’s simulation. Making matters worse, there is barely any available information online. Each of these building blocks can be studied in extreme depths, but in this blog post I would like to shine a light on a way of creating engine loops without the use of game-ready granular synths such as REV by CrankcaseAudio. </p>
+
+<hr class="dotted-line">
