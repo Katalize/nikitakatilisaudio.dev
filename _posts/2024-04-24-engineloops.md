@@ -9,7 +9,7 @@ description: Learn how to create engine loops yourself!
 <h2><mark style="background-color: lightgrey;">Engine Loop Creation using Pyrespeeder and iZotope RX</mark> </h2> 
 <hr class="dotted-line">
 
-_Massive thank you to my collegue and friend_ **Tyoma Makeev** _for introducing me to Pyrespeeder. This guide would not be here without him, so please go check out his_ [website](https://github.com/HENDRIX-ZT2/pyaudiorestoration)!
+_Massive thank you to my collegue and friend_ **Tyoma Makeev** _for introducing me to Pyrespeeder. This guide would not be here without him, so please go check out his_ [website](https://tyoma.io/)!
 
 <img src="https://i.redd.it/b0kkctsxlpa41.jpg" alt="RPM formula" width="100%">
 
