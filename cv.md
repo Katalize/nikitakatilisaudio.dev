@@ -18,6 +18,8 @@ I am a professional full-time game audio designer based in Leeds, United Kingdom
 *   Sound design and implementation for **Cash Cleaner Simulator** (Mind Control Games).
 *   Sound design for announced projects.
 
+<img src="https://github.com/Katalize/nikitakatilisaudio.dev/blob/main/media/CV/CCS_logo.jpg?raw=true" alt="Picture Description" width="100%">
+
 <hr class="dotted-line">
 
 # Sound Designer at Saber Interactive (project under NDA) (12.2022 - Current)
