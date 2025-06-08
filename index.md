@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="headermain">
-  <h1><mark style="background-color: lightgrey; margin: 2px; margin-top: 0px;">Nikita Katilis Game Audio Designer</mark></h1>
+  <h1><mark style="background-color: lightgrey; margin: 2px; margin-top: 0px;">Nikita Katilis - Game Audio Designer</mark></h1>
   <div class="links">
     <a href="https://t.me/katalizeaudio" style="white-space: nowrap; --base-color: black;" target="_blank"> <img src="/media/IconSet/Telegram.png" alt="Telegram" class="clickable-image"></a>
     <a href="https://www.linkedin.com/in/nikitakatiliskatalize/" style="white-space: nowrap; --base-color: black;" target="_blank"> <img src="/media/IconSet/Linkedin.png" alt="LinkedIn" class="clickable-image"></a>
