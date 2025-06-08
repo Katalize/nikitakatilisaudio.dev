@@ -14,6 +14,12 @@ I am a professional full-time game audio designer based in Leeds, United Kingdom
 
 <hr class="dotted-line">
 
+# Freelance Sound Designer at Konstantin Knerik Studio (09.2024 - Current)
+*   Sound design and implementation for **Cash Cleaner Simulator** (Mind Control Games).
+*   Sound design for announced projects.
+
+<hr class="dotted-line">
+
 # Sound Designer at Saber Interactive (project under NDA) (12.2022 - Current)
 
 *   **Fast-paced design of audio assets** in multitude of different styles and aesthetic categories.
